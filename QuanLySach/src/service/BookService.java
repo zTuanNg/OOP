@@ -21,7 +21,7 @@ public class BookService {
 
     // Find book by name
     public List<Book> findBookByName(String kw){
-        return ql.stream().filter(b -> b.getTitle().contains(kw)).collect(Collectors.toList());
+        return ql.stream().filter(b -> b.getTitle().toLowerCase().contains(kw.toLowerCase())).collect(Collectors.toList());
     }
 
     // Find book by category

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/QuanLyFilm/QuanLyFilm.iml" filepath="$PROJECT_DIR$/QuanLyFilm/QuanLyFilm.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuanLySach/QuanLySach.iml" filepath="$PROJECT_DIR$/QuanLySach/QuanLySach.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quan_Ly_Hoc_Sinh/Quan_Ly_Hoc_Sinh.iml" filepath="$PROJECT_DIR$/Quan_Ly_Hoc_Sinh/Quan_Ly_Hoc_Sinh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quan_Ly_Nhan_Vien/Quan_Ly_Nhan_Vien.iml" filepath="$PROJECT_DIR$/Quan_Ly_Nhan_Vien/Quan_Ly_Nhan_Vien.iml" />
     </modules>
   </component>
 </project>
