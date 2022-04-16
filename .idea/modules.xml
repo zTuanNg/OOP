@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BuildTeamPlayer/BuildTeamPlayer.iml" filepath="$PROJECT_DIR$/BuildTeamPlayer/BuildTeamPlayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OOP.iml" filepath="$PROJECT_DIR$/.idea/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuanLyFilm/QuanLyFilm.iml" filepath="$PROJECT_DIR$/QuanLyFilm/QuanLyFilm.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuanLySach/QuanLySach.iml" filepath="$PROJECT_DIR$/QuanLySach/QuanLySach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuanLySanPham/QuanLySanPham.iml" filepath="$PROJECT_DIR$/QuanLySanPham/QuanLySanPham.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quan_Ly_Hoc_Sinh/Quan_Ly_Hoc_Sinh.iml" filepath="$PROJECT_DIR$/Quan_Ly_Hoc_Sinh/Quan_Ly_Hoc_Sinh.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quan_Ly_Nhan_Vien/Quan_Ly_Nhan_Vien.iml" filepath="$PROJECT_DIR$/Quan_Ly_Nhan_Vien/Quan_Ly_Nhan_Vien.iml" />
     </modules>

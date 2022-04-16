@@ -35,6 +35,5 @@ public class App {
         lst.stream().forEach(h-> System.out.println(h));
 
 
-
     }
 }
