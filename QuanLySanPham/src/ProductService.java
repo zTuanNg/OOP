@@ -72,7 +72,7 @@ public class ProductService {
 
     public List<Product> findProductWithPriceFromXToY(List<Product>lst, long x, long y){
         try {
-            return lst.stream().filter(p-> p.getPrice() < y || p.getPrice()>=x).collect(Collectors.toList());
+            return lst.stream().filter(p-> p.getPrice() < y && p.getPrice()>=x).collect(Collectors.toList());
         }
         catch (Exception e){
             return null;
