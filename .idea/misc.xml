@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/Book_Management/pom.xml" />
         <option value="$PROJECT_DIR$/MovieManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/FPT_shop/pom.xml" />
       </list>
     </option>
   </component>

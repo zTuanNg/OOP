@@ -1,0 +1,10 @@
+[{"id":1,"name":"Samsung Galaxy S22 Ultra","desc":"6.8 inch, Dynamic AMOLED 2X, QHD+, 1440 x 3088 Pixels","price":"30990000","quantity":90,"sold":56,"company":"Samsung","category":["Điện thoại"]},
+{"id":2,"name":"Samsung Galaxy Z Flip","desc":"6.7 inch, Chính: Dynamic AMOLED, FHD+, 1080 x 2636 Pixels","price":"12990000","quantity":22,"sold":2,"company":"Samsung","category":["Điện thoại"]},
+{"id":3,"name":"MacBook Pro 14 2021 M1","desc":"Ram 32GB 14.2 inch, 3024 x 1964 Pixels","price":"61490000","quantity":23,"sold":20,"company":"Apple","category":["Laptop","Apple"]},
+{"id":4,"name":"Cáp USB-C to Lightning Cable ","desc":"Cable (1m) 2021","price":"599000","quantity":4,"sold":1,"company":"Apple","category":["Apple","Phụ kiện"]},
+{"id":5,"name":"iPhone 13 Pro Max","desc":"128GB","price":"30490000","quantity":15,"sold":10,"company":"Apple","category":["Apple","Điện thoại"]},
+{"id":6,"name":"Laptop HP Envy 13","desc":"13.3 inch, 1920 x 1080 Pixels, IPS, 60 Hz, 400 nits, LED Backlit","price":"22799000","quantity":5,"sold":1,"company":"HP","category":["Laptop"]},
+{"id":7,"name":"Laptop Asus Zenbook","desc":"13.3 inch, 1920 x 1080 Pixels, OLED, 60 Hz, 500 nits, OLED","price":"21099000","quantity":8,"sold":6,"company":"Asus","category":["Laptop"]},
+{"id":8,"name":"Tai nghe bluetooth","desc":"elkin Soundform AUC001","price":"1790000","quantity":2,"sold":2,"company":"Belkin","category":["Phụ kiện"]},
+{"id":9,"name":"Laptop MacBook Pro 13","desc":"13.3 inch, 2560 x 1600 Pixels, IPS, IPS LCD LED Backlit, True Tone","price":"41.999.000","quantity":9,"sold":4,"company":"Apple","category":["Apple","Laptop"]},
+{"id":10,"name":"Ốp lưng đế dựng","desc":"Ốp lưng đế dựng Samsung S22 Plus ESR","price":"449000","quantity":4,"sold":2,"company":"ESR","category":["Phụ kiện"]}]

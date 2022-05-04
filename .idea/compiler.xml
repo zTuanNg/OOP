@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MovieManagement" />
         <module name="Book_Management" />
+        <module name="FPT_shop" />
       </profile>
     </annotationProcessing>
   </component>

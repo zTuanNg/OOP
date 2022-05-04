@@ -54,7 +54,6 @@ public class MovieService {
             int count = (int) movies.stream().filter(m->m.getCategory().contains(category)).count();
             map.put(category, count);
         }
-
         return map;
     }
 
