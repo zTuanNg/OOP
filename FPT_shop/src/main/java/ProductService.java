@@ -4,8 +4,7 @@ import com.google.gson.reflect.TypeToken;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ProductService {
@@ -31,11 +30,12 @@ public class ProductService {
 
     // find product by category
     public List<Product> findProductByCategory(List<Product>lst,String kw){
-          List<Product> rs = new ArrayList<>();
+//          List<Product> rs = new ArrayList<>();
           kw = kw.substring(0,1).toUpperCase()+ kw.substring(1).toLowerCase();
+        System.out.println(kw);
           try{
               String finalKw = kw;
-              return lst.stream().filter(p->p.getCategory().equals(finalKw)).collect(Collectors.toList ());
+              return lst.stream().filter(p->p.getCategory().contains(finalKw)).collect(Collectors.toList ());
           }catch (Exception e){
               return null;
           }
@@ -71,11 +71,33 @@ public class ProductService {
 
     public List<Product> findProductByUpperPrice(List<Product>lst, BigDecimal price){
         try{
-            return lst.stream().filter(p->new BigDecimal(p.getPrice()).compareTo(price)>=0).collect(Collectors.toList());
+            return lst.stream().filter(p->(new BigDecimal(p.getPrice())).compareTo(price)>=0).collect(Collectors.toList());
         }catch (Exception e){
             return null;
         }
     }
+    public List<Product> findProductByName(List<Product>lst, String kw){
+        try {
+            return lst.stream().filter(p->p.getName().toLowerCase().contains(kw.toLowerCase())).collect(Collectors.toList());
+        }catch (Exception e){
+            return null;
+        }
+    }
+
+    public Map<String,Integer> countProductByCompany(List<Product>lst){
+        List<String>l1 = new ArrayList<>();
+        for(Product p : lst){
+            l1.add(p.getCompany());
+        }
+        Set<String> set = new HashSet(l1);
+        Map<String, Integer> map = new HashMap<>();
+        for(String company : set){
+            int count = (int) lst.stream().filter(m->m.getCompany().toLowerCase().contains(company.toLowerCase())).count();
+            map.put(company, count);
+        }
+        return map;
+    }
+
 
 
 

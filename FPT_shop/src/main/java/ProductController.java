@@ -15,7 +15,7 @@ public class ProductController {
         products = service.readData();
     }
 
-    public static void run(){
+    public void run(){
         while(true) {
             menu();
             System.out.println("Enter your choice: ");
@@ -31,6 +31,14 @@ public class ProductController {
                 case 3:
                     showProductByCategoryAndPrice();
                     break;
+                case 4:
+                    showProductByName();
+                    break;
+                case 5:
+                    countProductByCompany();
+                    break;
+                case 0:
+                    System.exit(0);
                 default:
                     System.out.println("Khong co lua chon nay");
                     break;
@@ -44,6 +52,8 @@ public class ProductController {
         System.out.println("1 - In thông tin dựa trên danh mục");
         System.out.println("2 - In thông tin các sản phẩm dựa theo hãng và số sản phẩm của hãng");
         System.out.println("3 - In thông tin sản phẩm dựa trên mức giá và danh mục");
+        System.out.println("4 - Tìm sản phẩm theo tên và số sản phẩm tìm được");
+        System.out.println("5 - Liệt kê các hãng và số lượng sản phẩm của mỗi hãng");
         System.out.println("0 - Exit");
     }
 
@@ -153,7 +163,8 @@ public class ProductController {
     }
 
     public static void showProductByCategoryAndPrice(){
-        submenu1();
+        System.out.println("Choice this option: ");
+        System.out.println("Điện thoại - Laptop - Apple - Phụ kiện");
         System.out.println("Enter category: ");
         String category = sc.nextLine();
         priceMenu();
@@ -184,7 +195,6 @@ public class ProductController {
             case 5:
                 result = service.findProductByCategory(products,category);
                 result = service.findProductByUpperPrice(result,new BigDecimal(13000000));
-                System.out.println(result.size());
                 service.show(result);
                 break;
             default:
@@ -192,6 +202,22 @@ public class ProductController {
                 break;
         }
 
+    }
+
+    public static void showProductByName(){
+        System.out.println("Enter name: ");
+        String name = sc.nextLine();
+        if (service.findProductByName(products,name).size() != 0){
+            System.out.printf("Tim duoc %s san pham\n",service.findProductByName(products,name).size());
+            service.show(service.findProductByName(products,name));
+        }else{
+            System.out.println("Khong tim duoc san pham phu hop");
+        }
+    }
+
+    public static void countProductByCompany(){
+        System.out.println("So san pham cua cac hang : ");
+        System.out.println(service.countProductByCompany(products));
     }
 
 }

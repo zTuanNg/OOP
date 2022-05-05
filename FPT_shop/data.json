@@ -6,5 +6,6 @@
 {"id":6,"name":"Laptop HP Envy 13","desc":"13.3 inch, 1920 x 1080 Pixels, IPS, 60 Hz, 400 nits, LED Backlit","price":"22799000","quantity":5,"sold":1,"company":"HP","category":["Laptop"]},
 {"id":7,"name":"Laptop Asus Zenbook","desc":"13.3 inch, 1920 x 1080 Pixels, OLED, 60 Hz, 500 nits, OLED","price":"21099000","quantity":8,"sold":6,"company":"Asus","category":["Laptop"]},
 {"id":8,"name":"Tai nghe bluetooth","desc":"elkin Soundform AUC001","price":"1790000","quantity":2,"sold":2,"company":"Belkin","category":["Phụ kiện"]},
-{"id":9,"name":"Laptop MacBook Pro 13","desc":"13.3 inch, 2560 x 1600 Pixels, IPS, IPS LCD LED Backlit, True Tone","price":"41.999.000","quantity":9,"sold":4,"company":"Apple","category":["Apple","Laptop"]},
-{"id":10,"name":"Ốp lưng đế dựng","desc":"Ốp lưng đế dựng Samsung S22 Plus ESR","price":"449000","quantity":4,"sold":2,"company":"ESR","category":["Phụ kiện"]}]
+{"id":9,"name":"Laptop MacBook Pro 13","desc":"13.3 inch, 2560 x 1600 Pixels, IPS, IPS LCD LED Backlit, True Tone","price":"41999000","quantity":9,"sold":4,"company":"Apple","category":["Apple","Laptop"]},
+{"id":10,"name":"Ốp lưng đế dựng","desc":"Ốp lưng đế dựng Samsung S22 Plus ESR","price":"4049000","quantity":4,"sold":2,"company":"ESR","category":["Phụ kiện"]},
+  {"id":11,"name":"Ốp lưng đế dựng GOLD","desc":"Ốp lưng đế dựng Samsung ","price":"8049000","quantity":4,"sold":2,"company":"ESR","category":["Phụ kiện"]}]
