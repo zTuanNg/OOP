@@ -127,6 +127,7 @@ public class FilmController {
     public static void findFilmByCategory(){
         System.out.println("Enter category (Mỗi thể loại cách nhau bằng dấu: space) ");
         String cate = sc.nextLine();
+        cate = cate.trim();
         List<String> cates = List.of(cate.split("\\s+"));
 
         List<Film> rs = service.findByCategory(films,cates);
