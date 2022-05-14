@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BuildTeamPlayer/BuildTeamPlayer.iml" filepath="$PROJECT_DIR$/BuildTeamPlayer/BuildTeamPlayer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Film/Film.iml" filepath="$PROJECT_DIR$/Film/Film.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OOP.iml" filepath="$PROJECT_DIR$/.idea/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuanLyFilm/QuanLyFilm.iml" filepath="$PROJECT_DIR$/QuanLyFilm/QuanLyFilm.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuanLyHocSinh/QuanLyHocSinh.iml" filepath="$PROJECT_DIR$/QuanLyHocSinh/QuanLyHocSinh.iml" />
