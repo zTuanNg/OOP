@@ -1,7 +1,9 @@
+package model;
+
 import java.text.ParseException;
 import java.util.List;
 
-public class Movie extends Film{
+public class Movie extends Film {
 
     private int time;
 

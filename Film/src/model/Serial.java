@@ -1,7 +1,9 @@
+package model;
+
 import java.text.ParseException;
 import java.util.List;
 
-public class Serial extends Film{
+public class Serial extends Film {
     private int period;
     private String status;
 

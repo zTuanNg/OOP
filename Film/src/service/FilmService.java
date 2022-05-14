@@ -1,3 +1,9 @@
+package service;
+
+import model.Film;
+import model.Movie;
+import model.Serial;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -66,13 +72,13 @@ public class FilmService {
       }
     }
 
-    // sort Film by view
+    // sort controller.Film by view
 
     public List<Film> sortByView(List<Film> lst){
         return lst.stream().sorted(Comparator.comparingInt(f->f.getView())).collect(Collectors.toList());
     }
 
-    // find Serial
+    // find controller.Serial
    public static List<Serial> findSerial(List<Film>lst){
         List<Serial> lstSerial = new ArrayList<>();
 
@@ -83,7 +89,7 @@ public class FilmService {
         return lstSerial;
    }
 
-   // find Serial Done
+   // find controller.Serial Done
     public List<Serial> findSerialDone(List<Film>lst) {
         try {
             List<Serial> lst_serial = findSerial(lst);
@@ -94,7 +100,7 @@ public class FilmService {
         }
     }
 
-    // Film release in year
+    // controller.Film release in year
     public List<Film> findFilmReleaseInYear(List<Film> lst){
 
         SimpleDateFormat s = new SimpleDateFormat("yyyy");

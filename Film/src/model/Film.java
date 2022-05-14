@@ -1,3 +1,5 @@
+package model;
+
 import java.text.Normalizer;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
